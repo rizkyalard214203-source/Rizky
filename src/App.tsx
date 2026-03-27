@@ -177,7 +177,7 @@ export default function App() {
                 className="inline-flex items-center gap-2 bg-white/10 border border-gold/30 rounded-full px-4 py-1.5 mb-6"
               >
                 <ShieldCheck className="w-4 h-4 text-gold" />
-                <span className="text-gold text-xs font-semibold tracking-wide uppercase">Terpercaya Sejak 2015</span>
+                <span className="text-gold text-xs font-semibold tracking-wide uppercase">Terpercaya Sejak 1990</span>
               </motion.div>
               
               <motion.h1 
@@ -222,7 +222,7 @@ export default function App() {
                   <p className="text-white/50 text-sm mt-1">Proyek Selesai</p>
                 </div>
                 <div>
-                  <span className="text-3xl font-bold text-gold">20+</span>
+                  <span className="text-3xl font-bold text-gold">35+</span>
                   <p className="text-white/50 text-sm mt-1">Tahun Pengalaman</p>
                 </div>
                 <div>

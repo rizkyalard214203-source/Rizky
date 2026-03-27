@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "DM Serif Display", serif;
+  
+  --color-navy: #0f1b2d;
+  --color-gold: #d4a843;
+  --color-slate: #1e293b;
+  --color-cream: #faf8f5;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-navy font-sans;
+  }
+}
+
+@layer utilities {
+  .gradient-gold {
+    background: linear-gradient(135deg, #d4a843 0%, #f0d68a 50%, #d4a843 100%);
+  }
+  .hero-bg {
+    background: linear-gradient(160deg, #0f1b2d 0%, #1a2d4a 40%, #0f1b2d 100%);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Serif+Display&display=swap');

@@ -117,7 +117,7 @@ export default function App() {
     const message = formData.get('message');
 
     const waNum = '628988934644';
-    const text = encodeURIComponent(`Halo Ardhi Konstruksi,\n\nNama: ${name}\nHP: ${phone}\nProyek: ${project}\n${message ? 'Pesan: ' + message : ''}\n\nMohon informasi lebih lanjut. Terima kasih!`);
+    const text = encodeURIComponent(`Halo Ardhi Construction,\n\nNama: ${name}\nHP: ${phone}\nProyek: ${project}\n${message ? 'Pesan: ' + message : ''}\n\nMohon informasi lebih lanjut. Terima kasih!`);
     window.open(`https://wa.me/${waNum}?text=${text}`, '_blank');
   };
 
@@ -130,7 +130,7 @@ export default function App() {
             <div className="w-9 h-9 rounded gradient-gold flex items-center justify-center">
               <Hammer className="w-5 h-5 text-navy" />
             </div>
-            <span className="text-white font-bold text-lg tracking-tight">Ardhi Konstruksi</span>
+            <span className="text-white font-bold text-lg tracking-tight">Ardhi Construction</span>
           </a>
           
           <div className="hidden md:flex items-center gap-8">
@@ -177,7 +177,7 @@ export default function App() {
                 className="inline-flex items-center gap-2 bg-white/10 border border-gold/30 rounded-full px-4 py-1.5 mb-6"
               >
                 <ShieldCheck className="w-4 h-4 text-gold" />
-                <span className="text-gold text-xs font-semibold tracking-wide uppercase">Terpercaya Sejak 1990</span>
+                <span className="text-gold text-xs font-semibold tracking-wide uppercase">Terpercaya Sejak 1991</span>
               </motion.div>
               
               <motion.h1 
@@ -516,9 +516,9 @@ export default function App() {
             <div className="w-8 h-8 rounded gradient-gold flex items-center justify-center">
               <Hammer className="w-4 h-4 text-navy" />
             </div>
-            <span className="text-white font-bold">Ardhi Konstruksi</span>
+            <span className="text-white font-bold">Ardhi Construction</span>
           </div>
-          <p className="text-white/40 text-sm">© 2025 Ardhi Konstruksi. Semua hak dilindungi.</p>
+          <p className="text-white/40 text-sm">© 2025 Ardhi Construction. Semua hak dilindungi.</p>
         </div>
       </footer>
     </div>
